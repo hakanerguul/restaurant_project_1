@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	overflow-x: hidden;
+}
+
+a,
+button {
+	@apply transition-all duration-200;
+}
+
+.navbar-links > li > a {
+	@apply transition-all duration-200 hover:text-gray-500;
+}
+
+.slider .slick-slide > div {
+	margin: 0 10px;
+}
+
+.slider .slick-list {
+	margin: 0 -10px;
+}

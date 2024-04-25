@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+*{
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+html{
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+
+.font-pinyonScript {
+  font-family: 'Pinyon Script', cursive !important;
+}
